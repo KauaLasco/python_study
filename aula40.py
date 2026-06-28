@@ -27,7 +27,7 @@ while True:
             mult_2 = input('Selecione o segundo número: ')
             mult_2 = int(mult_2)
 
-            print(f'A subtração entre os valores {mult_1} e {mult_2} é igual à:', mult_1 * mult_2)
+            print(f'A multiplicação entre os valores {mult_1} e {mult_2} é igual à:', mult_1 * mult_2)
     
         elif opcao == 4:
             div_1 = input('Selecione o primeiro número: ')
@@ -35,7 +35,7 @@ while True:
             div_2 = input('Selecione o segundo número: ')
             div_2 = int(div_2)
 
-            print(f'A subtração entre os valores {div_1} e {div_2} é igual à:', div_1 / div_2)
+            print(f'A divisão entre os valores {div_1} e {div_2} é igual à:', div_1 / div_2)
 
         elif opcao == 0:
             print("Fechando calculadora...")
